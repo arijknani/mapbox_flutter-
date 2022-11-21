@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434321847642",
+    "project_id": "mapbox-dc42a",
+    "storage_bucket": "mapbox-dc42a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434321847642:android:5d58128eeecac4f0386f63",
+        "android_client_info": {
+          "package_name": "com.example.mapbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434321847642-e7dai7tel97gnknhkcr47ptlll8b5ks9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4kQzl37se9xWRO8idRP-Wo1MxJCdHezs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434321847642-e7dai7tel97gnknhkcr47ptlll8b5ks9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
