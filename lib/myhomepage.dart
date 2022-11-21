@@ -203,9 +203,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               layers: [
                 TileLayerOptions(
-                    urlTemplate: 'https://api.mapbox.com/styles/v1/ahmedj92/cl45s3pgy007e14pe2p7vxpk5/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYWhtZWRqOTIiLCJhIjoiY2w0d2g0ZDN2MHJiZDNocWV5cHN1MWpieiJ9.Jpf-X1Tn7-VSms9mB05K8w',
+                    urlTemplate: 'URL',
                     additionalOptions: {
-                      'accessToken': 'pk.eyJ1IjoiYWhtZWRqOTIiLCJhIjoiY2w0d2g0ZDN2MHJiZDNocWV5cHN1MWpieiJ9.Jpf-X1Tn7-VSms9mB05K8w'
+                      'accessToken': 'YOUR_TOKEN'
                     }
                 ),
                 MarkerLayerOptions(
@@ -264,7 +264,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         MaterialPageRoute(
                           builder: (context) =>
                               MapBoxAutoCompleteWidget(
-                                apiKey: "pk.eyJ1IjoiYWhtZWRqOTIiLCJhIjoiY2w0d2g0ZDN2MHJiZDNocWV5cHN1MWpieiJ9.Jpf-X1Tn7-VSms9mB05K8w", hint: "Select starting point",
+                                apiKey: "API_KEY", hint: "Select starting point",
                                 onSelect: (place) {
                                   _startPointController.text = place.placeName!;
                                   showplace(place);
